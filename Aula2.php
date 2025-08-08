@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta CHARSET="utf-8" />
-        <title>Exercícios 4 - Foreach</title>
+        <title>Exercícios 1 - For</title>
 </head>
 <body>
 <?php
@@ -16,7 +16,7 @@
 <html>
     <head>
         <meta CHARSET="utf-8" />
-        <title>Exercícios 2 - For</title>
+        <title>Exercícios 2 - While</title>
 </head>
 <body>
 <?php
@@ -37,7 +37,7 @@
 <html>
     <head>
         <meta CHARSET="utf-8" />
-        <title>Exercícios 3 - For</title>
+        <title>Exercícios 3 - Do-while</title>
 </head>
 <body>
 <?php
