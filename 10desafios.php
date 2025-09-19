@@ -89,3 +89,46 @@ echo "Seja bem vindo! " .$nomeado;
 ?>
 </body>
 </html>
+
+---------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada do 1 ao 10</title>
+</head>
+<body>
+    <form action="tabuadaphp.php" method="POST">
+    <h1>Tabuada 1 a 10<h1>
+    <p> Digite o numero quedeseja saber a tabuadas<p>
+    <input type="number" name= 'N!'>
+    <input type="submit" value= "Calcular">
+</form>
+</body>
+</html>
+
+<?php
+$Number1 = $_POST["N!"];
+echo ($Number1 * 1);
+echo ("<br>");
+echo ($Number1 * 2);
+echo ("<br>");
+echo ($Number1 * 3);
+echo ("<br>");
+echo ($Number1 * 4);
+echo ("<br>");
+echo ($Number1 * 5);
+echo ("<br>");
+echo ($Number1 * 6);
+echo ("<br>");
+echo ($Number1 * 7);
+echo ("<br>");
+echo ($Number1 * 8);
+echo ("<br>");
+echo ($Number1 * 9);
+echo ("<br>");
+echo ($Number1 * 10);
+echo ("<br>");
+?>
