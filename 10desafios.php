@@ -132,3 +132,35 @@ echo ("<br>");
 echo ($Number1 * 10);
 echo ("<br>");
 ?>
+
+---------------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Verificação Par ou Ímpar</title>
+</head>
+<body>
+    <h1>Verificação de Número Par ou Ímpar</h1>
+    <form action="Par ou Ímpar2.php" method="POST">
+        <label for="numero">Digite um número:</label>
+        <input type="number" class="numero" name="numero" required>
+        <button type="submit">Verificar</button>
+    </form>
+</body>
+</html>
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    $numero = $_POST['numero'];
+
+    if ($numero % 2 == 0) {
+        echo "<h1>O número $numero é PAR.</h1>";
+    } else {
+        echo "<h1>O número $numero é ÍMPAR.</h1>";
+    }
+} else {
+    echo "<h1>Por favor, digite um número.</h1>";
+}
+?>
